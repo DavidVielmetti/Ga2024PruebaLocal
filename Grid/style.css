@@ -1,0 +1,48 @@
+/* Estilos para el contenedor general */
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Estilos para los filtros */
+#filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#filters input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+#filters input:focus {
+    border-color: #512da8;
+    outline: none;
+}
+
+/* Estilos para la tabla Grid.js */
+#gridjs {
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* Estilo para el encabezado de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c4c4c4;
+    color: #333;
+    text-align: center;
+
+}
+
+/* Estilo general para el título */
+h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #512da8;
+}
